@@ -1,3 +1,8 @@
 .Footer {
   padding: 30px;
+  text-align: center;
+}
+
+.Footer a {
+  color: #c8d9eb;
 }
