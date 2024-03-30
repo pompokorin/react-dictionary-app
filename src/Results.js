@@ -6,14 +6,16 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <span className="word"> {props.results.word} </span>
-        {"  "} <span className="phonetic">/{props.results.phonetic}/</span>
+        <section>
+          <span className="word"> {props.results.word} </span>
+          {"  "} <span className="phonetic">/{props.results.phonetic}/</span>
+        </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               {" "}
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>

@@ -1,0 +1,16 @@
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  max-width: 200px;
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+}
+
+.Photos {
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
